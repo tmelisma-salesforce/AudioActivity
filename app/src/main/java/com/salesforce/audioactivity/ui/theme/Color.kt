@@ -2,7 +2,36 @@ package com.salesforce.audioactivity.ui.theme // Make sure package matches yours
 
 import androidx.compose.ui.graphics.Color
 
-val CloudBlue95 = Color(0xFFEAF5FE) // Lightest
-val CloudBlue80 = Color(0xFF90D0FE) // Lighter
-val SalesforceBlue60 = Color(0xFF0D9DDA) // Medium (Not used in this step)
-val CloudBlue20 = Color(0xFF023248) // Darkest
+// Original Palette
+val CloudBlue95 = Color(0xFFEAF5FE)
+val CloudBlue80 = Color(0xFF90D0FE)
+val SalesforceBlue60 = Color(0xFF0D9DDA)
+val CloudBlue20 = Color(0xFF023248)
+
+// New Extended Palette
+val HotOrange50 = Color(0xFFD83A00)
+val Orange60 = Color(0xFFDD7A01)
+val Yellow70 = Color(0xFFE4A201)
+val Green40 = Color(0xFF396547)
+val Teal60 = Color(0xFF06A59A)
+// SalesforceBlue60 already defined
+val Blue40 = Color(0xFF0B5CAB)
+val Indigo50 = Color(0xFF5867E8)
+val Violet30 = Color(0xFF730394)
+val Aubergine = Color(0xFF83388A) // Assuming hex code
+val Pink40 = Color(0xFFB60554)
+
+// List for easy cycling (add colors as desired)
+val cyclingPalette = listOf(
+    HotOrange50,
+    Orange60,
+    Yellow70,
+    Green40,
+    Teal60,
+    SalesforceBlue60,
+    Blue40,
+    Indigo50,
+    Violet30,
+    Aubergine,
+    Pink40
+)
